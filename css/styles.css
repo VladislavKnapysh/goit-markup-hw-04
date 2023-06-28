@@ -193,6 +193,15 @@ img {
     background: var(--second-basic-color);
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70));
+    background-image: url(../images/hero/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-container {
+    
 }
 
 .hero-title {
@@ -232,9 +241,22 @@ img {
   | Description section
   |============================
 */
+
 .deskr-section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.deskr-icon-list-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
+}
+
+.deskr-icon-item {
+    width: 264px;
+    height: 112px;
+    background-color: var(--fourth-basic-color);
+    border-radius: 4px;
 }
 
 .deskr-list-container {
@@ -317,6 +339,35 @@ img {
 }
 
 .team-list-img {}
+/**
+  |============================
+  | Customers section
+  |============================
+*/
+.customer-title {
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--second-basic-color);
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+.customer-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+
+.customer-item {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+}
+
+.customer-link {}
 
 /**
   |============================
