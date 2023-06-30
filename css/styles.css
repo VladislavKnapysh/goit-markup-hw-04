@@ -92,6 +92,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.link-icon {
+    fill: var(--first-basic-color);
+}
 
 /**
   |============================
@@ -368,7 +371,7 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #4D5AE5;
+    background-color: var(--butn-logo-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -569,18 +572,16 @@ img {
     gap: 16px;
 }
 
-.footer-list-item {
+.footer-list-link {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: var(--butn-logo-color);
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.footer-list-link {
-    
-}
-.footer-list-item:hover,
-.footer-list-item:focus {
+.footer-list-link:hover,
+.footer-list-link:focus {
     background-color: #31D0AA;
 }
